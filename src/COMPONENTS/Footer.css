@@ -1,0 +1,20 @@
+.footer {
+    height: 20vh;
+    width: 100%;
+    background: #171616;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer__grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
